@@ -1,0 +1,13 @@
+/NOLOGO
+/errorReport:prompt
+/MACHINE:x64
+/SUBSYSTEM:WINDOWS
+/DEF
+/NAME:"UnrealEditor-SimplerUI.dll"
+/IGNORE:4221
+/NODEFAULTLIB
+"C:\Users\Andre luiz\Documents\GitHub\TCC\HistoricalFigures\Intermediate\Build\Win64\HistoricalFiguresEditor\Development\Engine\SharedPCH.Engine.ShadowErrors.h.obj"
+"C:\Users\Andre luiz\Documents\GitHub\TCC\HistoricalFigures\Plugins\SimplerUI\Intermediate\Build\Win64\UnrealEditor\Development\SimplerUI\Module.SimplerUI.cpp.obj"
+"C:\Users\Andre luiz\Documents\GitHub\TCC\HistoricalFigures\Plugins\SimplerUI\Intermediate\Build\Win64\UnrealEditor\Development\SimplerUI\Module.SimplerUI.gen.cpp.obj"
+"C:\Users\Andre luiz\Documents\GitHub\TCC\HistoricalFigures\Plugins\SimplerUI\Intermediate\Build\Win64\UnrealEditor\Development\SimplerUI\Default.rc2.res"
+/OUT:"C:\Users\Andre luiz\Documents\GitHub\TCC\HistoricalFigures\Plugins\SimplerUI\Intermediate\Build\Win64\UnrealEditor\Development\SimplerUI\UnrealEditor-SimplerUI.lib"

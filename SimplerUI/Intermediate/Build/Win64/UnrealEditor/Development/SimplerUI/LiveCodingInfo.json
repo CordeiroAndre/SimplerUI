@@ -1,0 +1,17 @@
+{
+	"RemapUnityFiles": 
+	{
+		"Module.SimplerUI.cpp.obj": [
+			"HUDSimplerUI.cpp.obj",
+			"SimplerActivatableWidget.cpp.obj",
+			"SimplerBaseWidget.cpp.obj",
+			"SimplerUI.cpp.obj"
+		],
+		"Module.SimplerUI.gen.cpp.obj": [
+			"HUDSimplerUI.gen.cpp.obj",
+			"SimplerActivatableWidget.gen.cpp.obj",
+			"SimplerBaseWidget.gen.cpp.obj",
+			"SimplerUI.init.gen.cpp.obj"
+		]
+	}
+}
