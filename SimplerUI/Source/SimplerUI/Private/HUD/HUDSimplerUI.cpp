@@ -32,13 +32,17 @@ USimplerActivatableWidget* AHUDSimplerUI::PushPrompt(TSubclassOf<USimplerActivat
 USimplerActivatableWidget* AHUDSimplerUI::PopPrompt()
 {
 	_baseWidget->RemovePrompt();
-	return PromptStack.Pop();
+	auto RemovedWidget = PromptStack.Pop();
+	if(PromptStack.Num() > 0) _baseWidget->SetPrompt(PromptStack.Top());
+	return RemovedWidget;
 }
 
 USimplerActivatableWidget* AHUDSimplerUI::PopBase()
 {
 	_baseWidget->RemoveBase();
-	return  BaseStack.Pop();
+	auto RemovedWidget = BaseStack.Pop();
+	if(BaseStack.Num() > 0) _baseWidget->SetBase(BaseStack.Top());
+	return  RemovedWidget;
 }
 
 
